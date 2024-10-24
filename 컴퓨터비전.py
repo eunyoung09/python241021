@@ -9,7 +9,10 @@ from io import BytesIO
 import requests
 
 # OpenAI API 키 설정
+
 openai.api_key = '본인키 작성하세요'
+
+
 
 class ImageDescriptionApp(QWidget):
     def __init__(self):
